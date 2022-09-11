@@ -58,3 +58,13 @@ foreach (var p in personasConMenosDe3MesesEnLaEmpresa)
 {
     Console.WriteLine(p);
 }
+
+var indexPorPersona = new[] { 2, 3, 4, 5 };
+var personasPorIndexYMayoresQue20 = personas.Where( (persona, index) => 
+                                                persona.Edad > 20 &&
+                                                indexPorPersona.Contains(index));
+Console.WriteLine("personasPorIndexYMayoresQue20");
+foreach (var p in personasPorIndexYMayoresQue20)
+{
+    Console.WriteLine(p);
+}
