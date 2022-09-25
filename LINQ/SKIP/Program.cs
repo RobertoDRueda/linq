@@ -38,6 +38,7 @@ foreach (var persona in secondHlafOfPersonas)
     Console.WriteLine(persona);
 }
 
+
 //function Pagination
 
 var numbers = Enumerable.Range(1, 100);
