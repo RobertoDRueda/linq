@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CONCAT", "CONCAT\CONCAT.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UNION_UNIONBY", "UNION_UNIONBY\UNION_UNIONBY.csproj", "{9A808428-BC15-4C75-82C4-2AD5486A8EEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTypeChange", "CollectionTypeChange\CollectionTypeChange.csproj", "{E426CA2C-793B-4533-8197-9D24183D6B38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionTypeChange", "CollectionTypeChange\CollectionTypeChange.csproj", "{E426CA2C-793B-4533-8197-9D24183D6B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SELECT", "SELECT\SELECT.csproj", "{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{E426CA2C-793B-4533-8197-9D24183D6B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E426CA2C-793B-4533-8197-9D24183D6B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E426CA2C-793B-4533-8197-9D24183D6B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
