@@ -5,6 +5,8 @@
         public string Nombre { get; set; } = String.Empty;
         public int Edad { get; set; }
         public bool Soltero { get; set; }
+
+        public List<string> Telefonos { get; set; } = new List<string>();
         public DateTime FechaIngresoALaEmpresa { get; set; }
 
         public int CompareTo(Persona? other)

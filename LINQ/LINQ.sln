@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UNION_UNIONBY", "UNION_UNIO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionTypeChange", "CollectionTypeChange\CollectionTypeChange.csproj", "{E426CA2C-793B-4533-8197-9D24183D6B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SELECT", "SELECT\SELECT.csproj", "{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SELECT", "SELECT\SELECT.csproj", "{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SELECTMANY", "SELECTMANY\SELECTMANY.csproj", "{4A2C4F2B-9EB4-4FE9-868A-26C4BD92704C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22A3548C-B3DE-4B75-9D44-A4AB80DA62FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2C4F2B-9EB4-4FE9-868A-26C4BD92704C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2C4F2B-9EB4-4FE9-868A-26C4BD92704C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2C4F2B-9EB4-4FE9-868A-26C4BD92704C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2C4F2B-9EB4-4FE9-868A-26C4BD92704C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
