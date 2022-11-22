@@ -4,6 +4,14 @@ var numeros = new[] { 1, 4, 10, 154, 999, 15 };
 
 var primeros3Numeros = numeros.Take(3);
 
+var tomarDel2Al6 = numeros.Take(2..6);  // numeros.Skip(2).Take(4)
+
+var tomarTodosDespuesDel6 = numeros.Take(6..);
+
+var tomarTodosAntesDel3 = numeros.Take(..3); //numeros.Take(3)
+
+var tomarTpdpsAntesDel3PorElFinal = numeros.Take(..^3);
+
 Console.WriteLine("primeros3Numeros: ");
 foreach (var num in primeros3Numeros)
 {

@@ -13,15 +13,26 @@ var personas = new List<Persona>() {
 
 var primeraPersona = personas.ElementAt(0);
 Console.WriteLine(primeraPersona);
+//Nombre: Eduardo, Edad: 30, Soltero: True, FechaIngresoALaEmpresa: 1/2/2021 12:00:00 AM
 
 var segundaPersona = personas.ElementAt(1);
 Console.WriteLine(segundaPersona);
+//Nombre: Nidia, Edad: 19, Soltero: True, FechaIngresoALaEmpresa: 11 / 22 / 2015 12:00:00 AM
 
 //Si no hay ningún elemento bajo el índice, se lanza una excepción: para evitar esto podemos usar ElementAtOrDefault
-
 var personaNULA = personas.ElementAtOrDefault(99);
 Console.WriteLine($"personaNULA: {personaNULA}");
+//personaNULA:
 
 var numbers = new[] { 3, 6, 2, 7, 9, 12, 8 };
 var numeroNoExiste = numbers.ElementAtOrDefault(99);
-Console.WriteLine(numeroNoExiste); //0
+Console.WriteLine(numeroNoExiste); 
+//0
+
+var thirdFormEnd = numbers.ElementAt(numbers.Count() - 3);
+Console.WriteLine(thirdFormEnd);
+//9
+
+var thirdFormEnd2 = numbers.ElementAt(^3);
+Console.WriteLine(thirdFormEnd2);
+//9
